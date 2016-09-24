@@ -1,4 +1,5 @@
 body, html {
+
 	margin:0;
 	font:sans-serif, "Times New Roman";
 }
@@ -8,27 +9,34 @@ body, html {
 	height:70px;
 }
 .header {
-	background-color:#00BFFF;
+	margin-left:150px;
+	color:white;
+	background-color:#4aaaa5;
  	float:left;
  	height:40PX;
 	padding:15px 30px;
-	font-size:20px;
+	font-size:30px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	line-height:40px;
+
 }
 .navMain ul {
 	margin:0;
-	padding:0;
+	padding-right:150px;
 	float:right;
 	list-style-type:none;
 }
 .navMain ul li {
+	font-family:Times;
+	font-size:22px;
 	float:left;
-	padding-right:30px;
+	padding-right:10px;
 }
 .navItem {
+	color:#777777;
+	text-decoration:none;
 	display:inline-block;
-	padding: 15px 20px;
+	padding: 15px 0;
 	line-height:40px;
 	float:left;
 
