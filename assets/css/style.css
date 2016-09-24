@@ -1,5 +1,5 @@
 body, html {
-
+	
 	margin:0;
 	font:sans-serif, "Times New Roman";
 }
@@ -40,4 +40,18 @@ body, html {
 	line-height:40px;
 	float:left;
 
+}
+.body {
+	vertical-align:top;
+	width:50%;
+	padding:10px 30px;
+	margin:50px 150px;
+	background-color:#ffffff;
+
+}
+#aboutMe {
+	color:#4aaaa5;
+}
+.profilePic {
+	margin:20px 0px;
 }
