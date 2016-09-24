@@ -1,0 +1,35 @@
+body, html {
+	margin:0;
+	font:sans-serif, "Times New Roman";
+}
+.navMain {
+	width:100%;
+	background-color:#ffffff;
+	height:70px;
+}
+.header {
+	background-color:#00BFFF;
+ 	float:left;
+ 	height:40PX;
+	padding:15px 30px;
+	font-size:20px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	line-height:40px;
+}
+.navMain ul {
+	margin:0;
+	padding:0;
+	float:right;
+	list-style-type:none;
+}
+.navMain ul li {
+	float:left;
+	padding-right:30px;
+}
+.navItem {
+	display:inline-block;
+	padding: 15px 20px;
+	line-height:40px;
+	float:left;
+
+}
