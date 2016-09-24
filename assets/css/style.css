@@ -8,6 +8,8 @@ body, html {
 	width:100%;
 	background-color:#ffffff;
 	height:70px;
+	border-bottom:solid 4px;
+	border-color:#cccccc;
 }
 
 .header {
@@ -41,52 +43,61 @@ body, html {
 	color:#777777;
 	text-decoration:none;
 	display:inline-block;
-	padding: 15px 0;
+	padding: 15px 5px;
 	line-height:40px;
 	float:left;
 }
 
-.body {
+.aboutMe {
 	width:50%;
 	padding:10px 30px;
-	margin:50px 150px;
+	margin:50px 0 50px 150px;
 	background-color:#ffffff;
+	display:inline-block;
+	float:left;
 	
 }
 
-#aboutMe {
+#headerAboutMe {
 	color:#4aaaa5;
 }
 
 .profilePic {
 	margin:20px 30px 10px 0px;
-	width=:200px;
+	width:250px;
 	float:left;
 	padding-right:30px;
 }
 p {
-	padding:20px 0 20px 0;
+	padding:0px 0 20px 0;
 	line-height:200%;
 	font-size:20px;
 	color:#777777;
 }
-.footer {
-	background:#666666;
-	text-align:center;
-	padding:30px;
-	border-top: 5px;
-	border-color: #4aaaa5;
-}
-.connect {
+
+.connectWithMe {
 	background-color:#ffffff;
 	margin-right:150px;
 	padding:20px 0;
 	width: 20%;
+	display:inline-block;
+	float:right;
+	margin:50px 150px 0 0;
+	padding:10px;
 	
 	
 }
-.connect h2{
+.connectWithMe h2{
 	color:#4aaaa5;
 }
 
-
+.footer {
+	clear:both;
+	background:#666666;
+	text-align:center;
+	padding:30px;
+	border-top:solid 6px;
+	border-color: #4aaaa5;
+	display: block;
+	color:#ffffff;
+}
