@@ -87,17 +87,32 @@ p {
 	
 	
 }
-.connectWithMe h2{
+.connectWithMe h2 {
 	color:#4aaaa5;
 }
 
 .footer {
 	clear:both;
+	width:100%;
 	background:#666666;
 	text-align:center;
 	padding:30px;
-	border-top:solid 6px;
-	border-color: #4aaaa5;
 	display: block;
 	color:#ffffff;
+	position:absolute;
+    bottom:0;
+    border-top:solid 6px;
+	border-color: #4aaaa5;
+}
+#headerPortfolio {
+	color:#4aaaa5;
+	
+}
+.portfolio {
+	width:50%;
+	padding:10px 30px;
+	margin:50px 0 50px 150px;
+	background-color:#ffffff;
+	display:inline-block;
+	float:left;
 }
