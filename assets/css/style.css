@@ -114,5 +114,14 @@ p {
 	margin:50px 0 50px 150px;
 	background-color:#ffffff;
 	display:inline-block;
-	float:left;
+}
+.contact {
+	background-color:#ffffff;
+	padding: 10px 30px;
+	margin:50px 0 50px 150px;
+	width:50%;
+	display:inline-block;
+}
+#headerContact {
+	color:#4aaaa5;
 }
