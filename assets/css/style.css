@@ -68,6 +68,7 @@ body, html {
 	float:left;
 	padding-right:30px;
 }
+
 p {
 	padding:0px 0 20px 0;
 	line-height:200%;
@@ -222,4 +223,8 @@ p {
 	color:#ffffff;
 	padding:15px 0;
 	text-align:center;
+}
+
+input [type=text] {
+	width:100%;
 }
