@@ -39,7 +39,7 @@ body, html {
 	padding-right:10px;
 }
 
-.navItem {
+.menuButton {
 	color:#777777;
 	text-decoration:none;
 	display:inline-block;
@@ -97,7 +97,7 @@ p {
 .portfolio {
 	background-color:#ffffff;
 	padding: 10px 30px;
-	margin: 50px 50px 150px 150px;
+	margin: 50px 50px 50px 150px;
 	width:50%;
 	display:inline-block;
 	height:100%;
