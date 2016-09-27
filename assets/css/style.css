@@ -1,6 +1,7 @@
 body, html {
 	
 	margin:0;
+	height:100%;
 
 }
 
@@ -57,7 +58,7 @@ body, html {
 	float:left;
 }
 
-#headerAboutMe {
+#mainHeader {
 	color:#4aaaa5;
 }
 
@@ -90,10 +91,6 @@ p {
 	font-size:26px;
 }
 
-#headerPortfolio {
-	color:#4aaaa5;
-}
-
 .portfolio {
 	display:inline-block;
 	background-color:#ffffff;
@@ -110,10 +107,6 @@ p {
 	margin:50px 50px 50px 150px;
 	width:690px;
 	float:left;
-}
-
-#headerContact {
-	color:#4aaaa5;
 }
 
 .footer {
@@ -242,4 +235,18 @@ label[for=name], label[for=email], label[for=message] {
 	font-family:'Helvetica';
 	font-size:18px;
 	color:#777777;
+}
+
+.container {
+	min-height: 100%;
+	margin-bottom:-142px;
+}
+
+.container:after {
+	content:"";
+	display:block;
+}
+
+.footer, .container:after {
+	height:30px;
 }
