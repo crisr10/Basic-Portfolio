@@ -4,30 +4,35 @@
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body background="assets/images/cork-wallet/cork-wallet.png">
 	
-	<nav class="navMain">
+		<nav class="navMain">
 			<div class="header">Cristian Rodriguez</div>
-  			<ul>
-    			<li><a href="index.html" class="menuButton">About</a></li>
-    			<li><a href="portfolio.html" class="menuButton">Portfolio</a></li>
-    			<li><a class="menuButton">Contact</a></li>
-    			
-  			</ul>
+  				<ul>
+    				<li><a href="index.html" class="menuButton">About</a></li>
+    				<li><a href="portfolio.html" class="menuButton">Portfolio</a></li>
+    				<li><a class="menuButton">Contact</a></li>
+  				</ul>
 		</nav>
+
 		<div class="contact">
 			<h1 id="headerContact">Contact</h1>
-			<hr>
-			<form id="contactForm" action="mailto:cristian_rocas@hotmail.com">
-  				Name:<br><br>
-  				<input type="text" name="Name"><br><br>
-  				E-mail:<br><br>
-  				<input type="text" name="Email"><br><br>
-  				Message <br><br>
-  				<textarea name="message" rows="10" cols="30"> </textarea>
-  				<br><br>
-  				<input type="submit" value="Submit">
-			</form>
+			<hr><br>
+			<div id="contactForm">
+				<form action="mailto:cristian_rocas@hotmail.com">
+  					<label for="name">Name</label><br>
+  					<input type="text" name="fullName" placeholder="   John Smith"><br><br>
+
+  					<label for="email">E-mail</label><br>
+  					<input type="text" name="fullEmail" placeholder="   example@gmail.com"><br><br>
+
+  					<label for="message">Message</label><br>
+  					<textarea name="messageBox"></textarea><br><br>
+
+  					<input type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
 
 		<div class="connectWithMe"> 
@@ -48,5 +53,6 @@
 		<div class="footer">
 			&copy;Copyright 2016 Cristian Rodriguez
 		</div>
+	
 </body>
 </html>
