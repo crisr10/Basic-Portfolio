@@ -137,32 +137,32 @@ p {
 	position:relative;
 }
 
-#imageFood {
+#imageHangman {
 	margin:30px 0;
 	float:left;
 }
 
-#imageNature {
+#imageRPGGame {
 	margin:30px 0;
 	float:right;
 }
 
-#imageNightlife {
+#imageTriviaGame {
 	margin:30px 0;
 	float:left;
 }
 
-#imageSports {
+#imageRudgersInfoWidget {
 	margin:30px 0;
 	float:right;
 }
 
-#imageDog {
+#imageRockPaperScissors {
 	margin:30px 0;
 	float:left;
 }
 
-#imageFood h2 {
+#imageHangman h2 {
 	position:absolute;
 	width:320px;
 	top:225px;
@@ -174,7 +174,7 @@ p {
 	font-family: serif;
 }
 
-#imageNature h2 {
+#imageRPGGame h2 {
 	position:absolute;
 	width:320px;
 	top:225px;
@@ -185,7 +185,19 @@ p {
 	text-align:center;
 }
 
-#imageSports h2 {
+#imageTriviaGame h2 {
+	top:530px;
+	position:absolute;
+	width:320px;
+	background-color:#4aaaa5;
+	color:#ffffff;
+	margin-top:230px;
+	padding:15px 0;
+	text-align:center;
+
+}
+
+#imageRudgersInfoWidget h2 {
 	position:absolute;
 	width:320px;
 	top:530px;
@@ -196,19 +208,7 @@ p {
 	text-align:center;
 }
 
-#imageNightlife h2 {
-	position:absolute;
-	width:320px;
-	top:530px;
-	margin-top:230px;
-	background-color:#4aaaa5;
-	color:#ffffff;
-	padding:15px 0;
-	text-align:center;
-}
-
-
-#imageDog h2 {
+#imageRockPaperScissors h2 {
 	position:absolute;
 	width:320px;
 	top:835px;
