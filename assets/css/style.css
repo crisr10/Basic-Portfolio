@@ -36,11 +36,7 @@ body, html {
 	font-family:Arial;
 	font-size:22px;
 	float:left;
-	padding-right:10px;
-}
-
-li:nth-child(2) {
-	border-right-style: solid 2px;
+	padding-right:15px;
 }
 
 .menuButton {
@@ -82,7 +78,7 @@ p {
 
 .connectWithMe {
 	background-color:#ffffff;
-	width:220px;
+	width:270px;
 	display:inline-block;
 	float:left;
 	margin:50px 0 0 0;
