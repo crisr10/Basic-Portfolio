@@ -82,17 +82,17 @@ body {
 }
 
 .profilePic {
-	margin:20px 30px 10px 0px;
-	width:250px;
+	margin:20px 0 10px 0;
+	width:245px;
 	float:left;
 	padding-right:30px;
 }
 
 p {
-	padding:0px 0 20px 0;
+	padding:0px 0 10px 0;
 	line-height:200%;
 	font-family:'Helvetica Neue';
-	font-size:20px;
+	font-size:15px;
 	color:#777777;
 }
 
