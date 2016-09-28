@@ -1,62 +1,81 @@
-body, html {
-	
+body {
 	margin:0;
-	height:100%;
-
 }
 
-.navMain {
+.white {
+	background-color: #ffffff;
 	width:100%;
-	background-color:#ffffff;
-	height:100px;
+	height:80px;
 	border-bottom:solid 4px;
 	border-color:#cccccc;
 }
+.navMain {
+	width:960px;
+	border-color:#cccccc;
+	margin-left:150px;
+}
 
 .header {
-	margin-left:150px;
 	color:white;
 	background-color:#4aaaa5;
  	float:left;
  	height:40px;
-	padding:30px 30px;
+	padding:20px 30px;
 	font-size:35px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	line-height:40px;
-
 }
 
 .navMain ul {
-	margin:0;
-	padding:10px 0 0 450px;
-	float:left;
-	list-style-type:none;
+	margin-top: 0;
+	margin-bottom: 0;
+	display:inline-block;
+	list-style-type: none;
+	float:right;
+	height:30px;
 }
 
 .navMain ul li {
 	font-family:Arial;
-	font-size:22px;
+	font-size:18px;
 	float:left;
-	padding-right:15px;
+	padding-top
 }
 
 .menuButton {
 	color:#777777;
 	text-decoration:none;
 	display:inline-block;
-	padding: 15px 5px;
-	line-height:40px;
+	padding:0 15px;
 	float:left;
+	margin-top:30px;
+}
+
+.menuButtonPortfolio {
+	color:#777777;
+	text-decoration:none;
+	display:inline-block;
+	padding:0 15px;
+	float:left;
+	margin-top:30px;
+	border-right:2px solid #777777;
+	border-left:2px solid #777777;;
 }
 
 .aboutMe {
-	width:690px;
-	padding:10px 30px;
-	margin:50px 50px 50px 150px;
+	width:590px;
 	background-color:#ffffff;
-	display:inline-block;
 	float:left;
+	padding:10px 30px;
 }
+
+.connectWithMe {
+	width:210px;
+	background-color: #ffffff;
+	display:inline-block;
+	float:right;
+	padding:0 30px 20px 30px;
+} 
 
 #mainHeader {
 	color:#4aaaa5;
@@ -77,15 +96,9 @@ p {
 	color:#777777;
 }
 
-.connectWithMe {
-	background-color:#ffffff;
-	width:270px;
-	display:inline-block;
-	float:left;
-	margin:50px 0 0 0;
-	padding: 10px 20px;
+
 	
-}
+
 .connectWithMe h2 {
 	color:#4aaaa5;
 	font-size:26px;
@@ -101,12 +114,10 @@ p {
 }
 
 .contact {
-	display:inline-block;
+	width:590px;
 	background-color:#ffffff;
-	padding: 10px 30px;
-	margin:50px 50px 50px 150px;
-	width:690px;
 	float:left;
+	padding:10px 30px;
 }
 
 .footer {
@@ -238,15 +249,8 @@ label[for=name], label[for=email], label[for=message] {
 }
 
 .container {
-	min-height: 100%;
-	margin-bottom:-142px;
-}
-
-.container:after {
-	content:"";
-	display:block;
-}
-
-.footer, .container:after {
-	height:30px;
+	width:960px;
+	display:inline-block;
+	margin-left:150px;
+	margin-top:30px;
 }
