@@ -105,12 +105,10 @@ p {
 }
 
 .portfolio {
-	display:inline-block;
+	width:590px;
 	background-color:#ffffff;
-	padding: 10px 30px;
-	margin: 50px 50px 50px 150px;
-	width:690px;
 	float:left;
+	padding:10px 30px;
 }
 
 .contact {
@@ -132,7 +130,7 @@ p {
 }
 
 .image img {
-	width: 320px;
+	width: 270px;
 	display:inline-block;
 	position:relative;
 }
@@ -164,8 +162,8 @@ p {
 
 #imageHangman h2 {
 	position:absolute;
-	width:320px;
-	top:225px;
+	width:270px;
+	top:150px;
 	margin-top:230px;
 	background-color:#4aaaa5;
 	color:#ffffff;
@@ -176,8 +174,8 @@ p {
 
 #imageRPGGame h2 {
 	position:absolute;
-	width:320px;
-	top:225px;
+	width:270px;
+	top:150px;
 	margin-top:230px;
 	background-color:#4aaaa5;
 	color:#ffffff;
@@ -186,9 +184,9 @@ p {
 }
 
 #imageTriviaGame h2 {
-	top:530px;
+	top:417px;
 	position:absolute;
-	width:320px;
+	width:270px;
 	background-color:#4aaaa5;
 	color:#ffffff;
 	margin-top:230px;
@@ -199,8 +197,8 @@ p {
 
 #imageRudgersInfoWidget h2 {
 	position:absolute;
-	width:320px;
-	top:530px;
+	width:270px;
+	top:417px;
 	margin-top:230px;
 	background-color:#4aaaa5;
 	color:#ffffff;
@@ -210,8 +208,8 @@ p {
 
 #imageRockPaperScissors h2 {
 	position:absolute;
-	width:320px;
-	top:835px;
+	width:270px;
+	top:685px;
 	margin-top:230px;
 	background-color:#4aaaa5;
 	color:#ffffff;
